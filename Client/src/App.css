@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.WelcomeCard {
+  /* margin: 10vh 41vw; */
+  margin: 10vh auto;
+  min-width: 15rem;
+  max-width: 35rem;
+  border-radius: 2rem;
+  box-shadow: 0px 20px 65px -8px rgba(0, 0, 0, 0.57);
+}
+
+.cards {
+  border-radius: 0.5rem;
+  transition-duration: 0.5s;
+  color: black;
+}
+
+.cards:hover {
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 20px 65px -8px rgba(0, 0, 0, 0.57);
+}
+
+.tdn {
+  text-decoration: none;
+  color: black;
+}
+.tdn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.farmcards {
+  box-shadow: 0px 20px 65px -8px rgba(0, 0, 0, 0.57);
+}
+
+.agenctCard {
+  background-color: rgba(255, 255, 0, 0.193) !important;
+}
